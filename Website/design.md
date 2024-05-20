@@ -30,23 +30,24 @@ Replace this text with a brief statement about the system that you intend to cre
 
 ## Relevant Implications
 
-### IMPLICATION NAME HERE
+### Privacy
 
-Replace this text with a clear explanation of what the implication means.
+the relevant implication privacy is the idea of the data collected will only be seen by people that the user allows 
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+the way that privacy will fit in with this application is only admins and other people that the user shares the certain calendar will be able to see what contains in their private calendar
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+there will have to be certain precautions taken for example doing regular checks of peoples calendars by admins in case of people that are trying to use the calendar to cause harm to other people e.g who people might get bullied that day
 
-### IMPLICATION NAME HERE
 
-Replace this text with a clear explanation of what the implication means.
+### usability
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+the relevant implication usability is the idea that the application will be easy to navigate with little to no inconsistencies with design and have good error prevention 
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+the way that usability will fit in with this application is most of the areas that are specific to using colour or that are colour coded will not be different in any way to keep the user feel that the application is easy to navigate as well as if an error occurs there will be a clear message stating what went wrong
 
-### IMPLICATION NAME HERE
+there will have to be certain precautions taken for example doing regular checks of peoples calendars by admins in case of people that are trying to use the calendar to cause harm to other people e.g who people might get bullied that day
+
+### End Users 
 
 Replace this text with a clear explanation of what the implication means.
 
@@ -86,46 +87,63 @@ Replace this text with an explanation of what you will need to consider moving f
 
 -------------------------------------------------
 
-## Design, Development and Testing Log
+## Final System Design
 
-### DATE HERE
+### Database Structure
 
-Replace this test with what you are working on
+Place a image here that shows the *final design* of your database: tables, fields and relationships.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### User Interface Design
 
-### DATE HERE
+Place images here that show your *final design* of your UI: layout, colours, etc.
 
-Replace this test with what you are working on
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+-------------------------------------------------
 
-### DATE HERE
+## Completed System
 
-Replace this test with what you are working on
+### Database Structure
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
-### DATE HERE
+### User Interface Design
 
-Replace this test with what you are working on
+Place screenshots and notes here that show your *actual system UI* in action.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
-### DATE HERE
+-------------------------------------------------
 
-Replace this test with what you are working on
+## Review and Evaluation
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Meeting the Needs of the Users
 
-### DATE HERE
+Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
 
-Replace this test with what you are working on
+### Meeting the System Requirements
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-### DATE HERE
+### Review of IMPLICATION NAME HERE
 
-Replace this test with what you are working on
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Review of IMPLICATION NAME HERE
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of IMPLICATION NAME HERE
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
