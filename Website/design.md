@@ -39,15 +39,15 @@ the way that privacy will fit in with this application is only admins and other 
 there will have to be certain precautions taken for example doing regular checks of peoples calendars by admins in case of people that are trying to use the calendar to cause harm to other people e.g who people might get bullied that day
 
 
-### usability
+### Usability
 
 the relevant implication usability is the idea that the application will be easy to navigate with little to no inconsistencies with design and have good error prevention 
 
 the way that usability will fit in with this application is most of the areas that are specific to using colour or that are colour coded will not be different in any way to keep the user feel that the application is easy to navigate as well as if an error occurs there will be a clear message stating what went wrong
 
-there will have to be certain precautions taken for example doing regular checks of peoples calendars by admins in case of people that are trying to use the calendar to cause harm to other people e.g who people might get bullied that day
+there will have to be certain precautions taken for example as stated before with errors there will be error messages that are clearly stated to let the user what went wrong and the colours will be using specific keys to easily make the experience of the users to be less of a head ache to figure out 
 
-### End Users 
+### Functionality
 
 Replace this text with a clear explanation of what the implication means.
 
