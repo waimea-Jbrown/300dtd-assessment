@@ -5,7 +5,7 @@
 > Your documentation suffers from a few grammatical things that you really ought to put right:
 > - Lack of capital letters at start of sentences
 > - lack of punctuation (full-stops, etc.)
-
+>
 > If you have trouble with this kind of thing, then get someone at home, or a mate, to look over it for you. Only takes a few minutes.
 
 
@@ -17,15 +17,12 @@
 - [ ] **A** Implications, relevant to purpose and end-users, are described and linked to design of outcome
 - [ ] **M** UX design principles, relevant to purpose, identified, described and linked to design of outcome
 
-> Your problem description could do with a little bit of work: spelling, punctuation, paragraphs, etc. Get someone to read over it for you if you can.
-
-> End users - see the exemplar for what should go here. It's not what they will do, but who they are, and what needs they may have
-
-> Solution / functionality - not done
-
-> Implications - Started, but only two... Functionality? Aesthetics? End-Users?
-
-> UX - Not done
+> Lots of things need to be completed:
+> - Your problem description could do with a little bit of work: spelling, punctuation, paragraphs, etc. Get someone to read over it for you if you can.
+> - End users - see the exemplar for what should go here. It's not what they will do, but who they are, and what needs they may have
+> - Solution / functionality - not done
+> - Implications - Started, but only two... Functionality? Aesthetics? End-Users?
+> - UX - Not done
 
 
 ## Database Structure	
