@@ -23,7 +23,7 @@ The end users would need to have a calendar that they would need to find it easy
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
+The solution I am proposing is an online multi user calendar that has an automatic refresh system using HTMX. 
 
 
 -------------------------------------------------
@@ -43,17 +43,17 @@ there will have to be certain precautions taken for example doing regular checks
 
 the relevant implication usability is the idea that the application will be easy to navigate with little to no inconsistencies with design and have good error prevention 
 
-the way that usability will fit in with this application is most of the areas that are specific to using colour or that are colour coded will not be different in any way to keep the user feel that the application is easy to navigate as well as if an error occurs there will be a clear message stating what went wrong
+Usability is relevant to my project because the way that usability will fit in with this application is most of the areas that are specific to using colour or that are colour coded will not be different in any way to keep the user feel that the application is easy to navigate as well as if an error occurs there will be a clear message stating what went wrong
 
-there will have to be certain precautions taken for example as stated before with errors there will be error messages that are clearly stated to let the user what went wrong and the colours will be using specific keys to easily make the experience of the users to be less of a head ache to figure out 
+When moving forward there will have to be certain precautions taken for example as stated before with errors there will be error messages that are clearly stated to let the user what went wrong and the colours will be using specific keys to easily make the experience of the users to be less of a head ache to figure out 
 
 ### Functionality
 
-Replace this text with a clear explanation of what the implication means.
+The relevant implication Functionality is the concept that the state of the application should be working at the best it can be with little to no load time and that it works well with no bugs or glitches
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+Functionality is relevant to my project because it is very important that certain parts/areas of the applications function well if not then the entire project would be full of glitches and the application not working in general when making the application tests will be done to ensure that it runs and functions well
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+when moving forward there will be frequent checks on the application that would make sure that its functions are working properly for example if the edit feature accidentally flows to the create screen it would mean if i do frequent checks issues like that may not occur
 
 
 -------------------------------------------------
