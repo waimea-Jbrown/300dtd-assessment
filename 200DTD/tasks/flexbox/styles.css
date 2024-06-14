@@ -1,0 +1,116 @@
+/***************************************************************************
+ * Layout Tasks
+ *
+ * Do NOT change the CSS in the section below.
+ * Add your CSS at the bottom of this file
+ ***************************************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background: #ccc;
+    padding: 1em 3em;
+}
+
+h1, h2, h3, h4 {
+    color: #666;
+    text-align: center;
+}
+
+body > header {
+    text-align: center;
+}
+
+footer {
+    margin: 2em 0 0;
+    text-align: center;
+}
+
+section.task {
+    background: #fff;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.5);
+    margin: 3em auto;
+}
+
+div.parent {
+    padding: 0.5em;
+    border: 2px dashed #999;
+}
+
+div.child {
+    padding: 1em;
+    background: #666;
+    color: #fff;
+}
+
+div.child h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 1.5em;
+    margin: 0 0 0.5em;
+}
+
+div.child.one   { background: #933; }
+div.child.two   { background: #373; }
+div.child.three { background: #369; }
+
+
+/***************************************************************************
+ * PLACE YOUR CSS BELOW THIS LINE
+ ***************************************************************************/
+
+#parent1 {
+    display: flex;
+}
+
+#parent2 {
+    display: flex;
+}
+
+#parent2 .child {
+    width: 25%;
+    
+}
+
+#parent3 {
+    display: flex;
+    justify-content: end;
+}
+
+#parent3 .child {
+width: 25%;
+}
+
+#parent4 {
+display: flex;
+    justify-content:center ;
+}
+
+#parent4 .child{
+    width: 25%;
+}
+
+#parent5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#parent5 .child {
+    width: 25%;
+}
+
+#parent6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent6 .child {
+    width: 25%;
+}

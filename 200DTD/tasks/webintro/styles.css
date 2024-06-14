@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(1, 75, 23);
+    color: #fff;
+    background-image: url(images/green_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1rem;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+
+}
+header p{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+nav {
+    background-color: #169d;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (min-width: 50rem){
+    nav ul{
+        flex-direction: row;
+    }
+}
+    
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    background-color: crimson;
+    border-radius: 2.3rem;
+    padding:1.3rem;
+}
+
+#intro{
+    padding: 4rem 1rem;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 30rem) {
+    #intro {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+
+#definitions{
+    background-color: rgb(116, 164, 223);
+    color: #fff;
+    padding: 1rem;
+}
+
+.def{
+    background-color: #fff3;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: .5rem;
+}
+
+#definitions h3{
+    margin: 3rem;
+}
+
+@media screen and (min-width: 60rem) {
+    #definitions > div {
+        display: flex;
+        gap: 2rem;
+        justify-content: baseline;
+    }        
+}
+
+
+#links{
+    padding: 1rem;
+}
+
+#links li {
+    margin-bottom: 0.5rem;
+    background-color: rgb(69, 194, 38);
+    color: rgb(255, 255, 255);
+    padding: .5rem .8rem;
+    margin-top: .5rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    transition: background-color;
+
+}
+
+footer{
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+
+}

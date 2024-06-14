@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+:root {
+  --page-back-colour: lightgrey;
+  
+  --body-back-colour: white;
+  --body-heading-colour: black;
+  --body-text-colour: black;
+  
+  --link-text-colour: blue;
+  
+  --header-back-colour: #A62E4E;
+  --header-title-colour: white;
+  
+  --menu-link-colour: white;
+
+  --info-back-colour: white;
+  --info-border-colour: #8C513B;
+  --info-heading-colour: black;
+  --info-text-colour: black;
+  
+  --offers-back-colour: #F2A30F;
+  --offers-heading-colour: white;
+  --offers-text-colour: white;
+  
+  --contact-heading-colour: black;
+  
+  --times-back-colour: #F2A30F;
+  --times-heading-colour: white;
+  --times-text-colour: white;
+  
+  --form-label-colour: grey;
+  --form-button-colour: #A62E4E;
+  --form-button-text: white;
+
+  --social-back-colour: #F2780C;
+  --social-icon-colour: white;
+
+  --footer-back-colour: black;
+  --footer-text-colour: white;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+

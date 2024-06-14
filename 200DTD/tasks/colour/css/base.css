@@ -1,0 +1,387 @@
+:root {
+  --page-back-colour: lightgrey;
+  
+  --body-back-colour: white;
+  --body-heading-colour: black;
+  --body-text-colour: black;
+  
+  --link-text-colour: blue;
+  
+  --header-back-colour: white;
+  --header-title-colour: black;
+  
+  --menu-link-colour: black;
+
+  --info-back-colour: white;
+  --info-border-colour: grey;
+  --info-heading-colour: black;
+  --info-text-colour: black;
+  
+  --offers-back-colour: grey;
+  --offers-heading-colour: white;
+  --offers-text-colour: white;
+  
+  --contact-heading-colour: black;
+  
+  --times-back-colour: grey;
+  --times-heading-colour: white;
+  --times-text-colour: white;
+  
+  --form-label-colour: grey;
+  --form-button-colour: black;
+  --form-button-text: white;
+
+  --social-back-colour: grey;
+  --social-icon-colour: white;
+
+  --footer-back-colour: black;
+  --footer-text-colour: white;
+}
+
+
+/*** GENERAL ************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  font-size: 14px;
+  background: var(--page-back-colour);
+}
+
+body {
+  width: 90ch;
+  margin: 2rem auto 4rem;
+  background: var(--body-back-colour);
+  color: var(--body-text-colour);
+  box-shadow: 0 0.5rem 1rem #00000040;
+}
+
+h1, h2, h3 {
+  margin: 1em 0 0.7em;
+  color: var(--body-heading-colour);
+}
+
+h1 strong {
+  display: block;
+  font-weight: bold;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+section > *:first-child,
+div > *:first-child {
+  margin-top: 0;
+}
+
+section > *:last-child,
+div > *:last-child {
+  margin-bottom: 0;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+a {
+  color: var(--link-text-colour);
+}
+
+
+/*** MAIN HEADER ************************************/
+
+#mainheader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: var(--header-back-colour);
+}
+
+#mainheader h1 {
+  flex: 1;
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  color: var(--header-title-colour);
+}
+
+#mainheader h1 strong {
+  font-size: 1.2em;
+}
+
+
+
+/*** MAIN NAV ************************************/
+
+#mainnav ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+#mainnav a {
+  display: block;
+  padding: 0 0.8em;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--menu-link-colour);
+}
+
+
+/*** TOP TITLE SECTION ************************************/
+
+#title {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 0 0; 
+}
+
+#title h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#hero {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+
+/*** INTRO SECTION ************************************/
+
+#intro {
+  position: relative;
+  top: -5rem;
+  padding: 0 40% 0 5rem;
+}
+
+#info {
+  background: var(--info-back-colour);
+  color: var(--info-text-colour);
+  border: 10px solid var(--info-border-colour);
+  padding: 2rem 5rem 2rem 2rem;
+  margin: 0;
+}
+
+#info h2 {
+  color: var(--info-heading-colour);
+}
+
+#aside {
+  position: absolute;
+  right: 5rem;
+  top: 3rem;
+  width: 35%;
+  aspect-ratio: 0.8;
+  object-fit: cover;
+  object-position: left;
+  box-shadow: 0 0.3rem 0.6rem #00000060;
+}
+
+/*** OFFERS SECTION ************************************/
+
+#offers {
+  padding: 4rem 5rem;
+  background: var(--offers-back-colour);
+  color: var(--offers-text-colour);
+  text-align: center;
+}
+
+#offers h2 {
+  color: var(--offers-heading-colour);
+}
+
+#offers form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#offers input {
+    padding: 0.1rem 0.5rem;
+    display: block;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+#offers input:not([type=submit]) {
+    flex: 1;
+}
+
+#offers input[type=submit] {
+    background: var(--form-button-colour);
+    color: var(--form-button-text);
+}
+
+
+/*** IMAGE GALLERY ************************************/
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#gallery img {
+  width: 20%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+
+/*** CONTACT SECTION ************************************/
+
+#contact {
+  padding: 5rem;
+  display: flex;
+  gap: 3rem;
+}
+
+#contact h2 {
+  color: var(--contact-heading-colour);
+}
+
+#times {
+  width: 30%;
+  padding: 1.5rem;
+  background: var(--times-back-colour);
+  color: var(--times-text-colour);
+}
+
+#times h2 {
+  color: var(--times-heading-colour);
+}
+
+#times h3 {
+  color: var(--times-heading-colour);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#times p {
+    margin: 0.2rem 0 0.5rem;
+}
+
+
+#conform {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+#conform form {
+  padding: 0;
+  width: 100%;
+}
+
+#conform label {
+  display: block;
+  margin: 1rem 0 0.3rem;
+  color: var(--form-label-colour);
+}
+
+#conform input[type=submit] {
+  display: block;
+  margin: 1.5rem 0 0 auto;
+  font-size: 1.3rem;
+  padding: 0.1rem 0.5rem;
+  background: var(--form-button-colour);
+  color: var(--form-button-text);
+  border: none;
+}
+
+#conform input:not([type=submit]),
+#conform textarea {
+  display: block;
+  margin: 0.1rem 0 1rem;
+  width: 100%;
+  font-size: 1.3rem;
+  color: var(--form-label-colour);
+}
+
+#conform textarea {
+    height: 8em;
+}
+
+
+/*** MAIN FOOTER ************************************/
+
+#mainfooter {
+  padding: 0 0 0.3rem;
+  text-align: center;
+  background: var(--footer-back-colour);
+  color: var(--footer-text-colour);
+  font-size: 0.9rem;
+}
+
+#social {
+  padding: 3rem;
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  background: var(--social-back-colour);
+  color: var(--footer-text-colour);
+}
+
+#social svg {
+  display: inline;
+  width: 3rem;
+  height: 3rem;
+  fill: var(--social-icon-colour);
+}
+
+
+/*** SITE SWITCHER ************************************/
+
+#switcher {
+    opacity: 0.2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 0.5rem;
+    font-family: system-ui, sans-serif;
+    border-radius: 0 0 0.5rem 0;
+}
+
+#switcher p {
+    margin: 0;
+}
+
+#switcher ul {
+    margin-top: 0.5rem;
+    display: none;
+}
+
+#switcher ul::before {
+    content: 'Switch to...';
+}
+
+#switcher a {
+    color: #69c;
+}
+
+#switcher a:hover {
+    color: #ff0;
+}
+
+#switcher:hover {
+    opacity: 0.9;
+}
+
+#switcher:hover ul {
+    display: block;
+}
+
+

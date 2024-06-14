@@ -1,0 +1,8 @@
+AuthType Basic
+AuthName "Restricted Content"
+AuthUserFile /etc/apache2/.htpasswd
+Require user jbrown teacher moderation cpy wkr
+
+Order allow,deny
+Allow from dt.waimea.school.nz
+Satisfy any

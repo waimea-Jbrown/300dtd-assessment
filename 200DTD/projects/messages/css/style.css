@@ -1,0 +1,81 @@
+html{
+    font-family: tilt warp;
+    font-size: 18px;
+}
+
+
+
+body{
+    background-color: #294D29;
+    color: white;
+    max-width: 40rem;
+    
+}
+
+
+#new-message form {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    border: 1px solid #4D0328;
+    padding: 1.5rem;
+    background-color: #294D29;
+    border-radius: 1rem;
+}
+
+#new-message label {
+    color: #32cd32;
+}
+
+#new-message input[type=text],
+#new-message textarea {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#new-message input[type=submit]{
+    font-size: 1.5rem;
+    background-color:#294D29 ;
+    width: 12rem;
+}
+
+#new-message input[type=submit]:hover {
+    background-color:#4D0328 ;
+}
+
+
+
+#message-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+div.message {
+    border: 1px solid #32cd32;
+    padding: 1.5rem;
+    background-color: #4D0328;
+}
+
+div.message header {
+    color: limegreen;
+    border-bottom: 1px solid limegreen;
+}
+
+
+
+div.message h3 {
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 0.5rem;
+
+}
+
+div.message footer p {
+    color: limegreen;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+
