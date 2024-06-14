@@ -1,20 +1,32 @@
-# MTB Coaching App
+# PHP Routing System with HTMX
 
-thos is my levle 3 ncea project for digital technologies
+This is a simple routing system using PHP as the back-end. 
 
-it is a database driven web app that allows users to:
+![Routing system](images/routing.png)
 
-- Register account
-- multi user avalibale 
-- login /out
-- defined users
+## Features
 
-![alt text](images/81wVtMxdYsL._AC_UF894,1000_QL80_.jpg)
+- HTTP request types: GET, POST, PUT, DELETE
 
+- Fixed routing via URLs of the form: 
+    - `/route`
+    - `/route/sub-route`
 
-## Documents
+- Dynamic routing via URLs that include parameter values:
+    - `/route/$value`
+    - `/route/$value1/$value2`
+    - `/route/param/$value`
+    - `/route/param1/$value1/param2/$value2`
 
-the following documents support this project:
+- Basic templating for page layouts, including HTML partials
 
-- [Initial design](design.md)
-- [Development & Testing](development.md)
+- Support for [HTMX](https://htmx.org/) components
+
+## Code
+
+There are two versions of the system here:
+
+- The **dist** folder contains a minimal system for starting a new project.
+
+- The **demo** folder contains the routing system with some demo pages and templates.
+
