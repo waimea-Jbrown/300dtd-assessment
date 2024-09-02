@@ -6,6 +6,8 @@
 
         <li><a href="/">Home</a>
         <li><a href="/about">About</a>
+        <li><a href="/login.php">login</a>
+        <li><a href="/signup.php">signup</a></li>
 
     </menu>
 

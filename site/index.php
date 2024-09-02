@@ -24,6 +24,7 @@ $router->route(GET, PAGE, '/',      'pages/home.php');
 $router->route(GET, PAGE, '/about', 'pages/about.php');
 
 
+
 //-------------------------------------------------------------
 // Generate the required view
 $router->view();
